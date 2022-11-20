@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".SignInActivity"
     android:gravity="center"
-    android:background="@drawable/w1">
+    android:background="@drawable/pastel_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_whatsapp"/>
+            android:src="@drawable/chatting_icon" />
 
         <EditText
             android:id="@+id/txtEmail"
@@ -50,23 +50,23 @@
             android:textColorHint="@color/chatbackground"/>
 
         <TextView
+            android:id="@+id/txtClickSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtClickSignUp"
-            android:text="Click to sign up"
-            android:textColor="@color/white"
             android:layout_gravity="right"
             android:gravity="right"
-            android:textSize="15sp"
             android:padding="5dp"
-            android:textStyle="bold"/>
+            android:text="Click to sign up"
+            android:textColor="@color/darkGrey"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnSignIn"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:backgroundTint="@color/blue"
             android:padding="15dp"
             android:text="Sign In"
             app:cornerRadius="8dp"/>
@@ -113,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/txtSignUpPhone"
                 android:text="Sign Up with phone"
-                android:textColor="@color/white"
+                android:textColor="@color/darkGrey"
                 android:layout_marginTop="15dp"
                 android:textSize="18sp" />
     </LinearLayout>

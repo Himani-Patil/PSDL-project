@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/w1"
+    android:background="@drawable/pastel_background"
     android:orientation="vertical"
     tools:context=".SignUpActivity">
 
@@ -27,7 +27,7 @@
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_whatsapp"/>
+            android:src="@drawable/chatting_icon"/>
 
         <EditText
             android:id="@+id/txtUserName"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/AlreadyHaveAnAccount"
             android:text="Already have an account"
-            android:textColor="@color/white"
+            android:textColor="@color/darkGrey"
             android:layout_gravity="right"
             android:padding="5dp"
             android:gravity="right"
@@ -87,7 +87,7 @@
             android:padding="15dp"
             android:text="Sign Up"
             android:textAllCaps="false"
-            android:backgroundTint="@color/design_default_color_secondary_variant" />
+            android:backgroundTint="@color/blue" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -132,7 +132,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/SignUpPhone"
             android:text="Sign Up with phone"
-            android:textColor="@color/white"
+            android:textColor="@color/darkGrey"
             android:layout_marginTop="15sp"
             android:textSize="19dp" />
 

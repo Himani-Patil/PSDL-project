@@ -46,6 +46,8 @@ public class SignInActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         firebaseDatabase = FirebaseDatabase.getInstance();
 
+        getSupportActionBar().hide();
+
         progressDialog = new ProgressDialog(SignInActivity.this);
         progressDialog.setTitle("Login");
         progressDialog.setMessage("Please wait\nValidation in progress!");
@@ -81,8 +83,6 @@ public class SignInActivity extends AppCompatActivity {
                 }
             }
         });
-
-        getSupportActionBar().hide();
 
         if(mAuth.getCurrentUser()!=null){
             Intent intent = new Intent(SignInActivity.this, MainActivity.class);
