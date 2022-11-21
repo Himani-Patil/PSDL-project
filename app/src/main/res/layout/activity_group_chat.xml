@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GroupChatActivity"
-    android:background="@drawable/w4">
+    android:background="@drawable/pastel_background">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
-        android:background="@color/colorPrimary"
+        android:background="@color/blue"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme">
 

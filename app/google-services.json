@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "537225966535",
+    "firebase_url": "https://psdlproject-default-rtdb.firebaseio.com",
     "project_id": "psdlproject",
     "storage_bucket": "psdlproject.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "537225966535-21hoeo1n32703fe8qf1pfikbpvloms7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.psdlproject",
+            "certificate_hash": "28d2cbfbd830538947a7c3b9174f142b742ac315"
+          }
+        },
         {
           "client_id": "537225966535-d7u53sn73glsre3n709unvdvue347k9t.apps.googleusercontent.com",
           "client_type": 3

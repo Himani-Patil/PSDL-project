@@ -15,12 +15,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="9dp"
         android:id="@+id/receiverText"
         android:inputType="textLongMessage|textImeMultiLine"
         android:maxWidth="270dp"
-        android:minWidth="50dp"
+        android:minWidth="60dp"
         android:text="TextView"
+        android:textSize="17dp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/receiverTime"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -36,6 +38,7 @@
         android:layout_marginBottom="3dp"
         android:text="12:56 pm"
         android:textSize="10sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
