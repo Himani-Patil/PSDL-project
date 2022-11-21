@@ -92,20 +92,20 @@
                 android:textSize="15dp"
                 android:backgroundTint="@color/white" />
 
-            <Button
-                android:id="@+id/btnFacebook"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
-                android:layout_marginStart="4dp"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_facebook"
-                android:padding="15dp"
-                android:text="Facebook"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:backgroundTint="@color/fb_color"/>
+<!--            <Button-->
+<!--                android:id="@+id/btnFacebook"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="4dp"-->
+<!--                android:layout_marginStart="4dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:drawableLeft="@drawable/ic_facebook"-->
+<!--                android:padding="15dp"-->
+<!--                android:text="Facebook"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:backgroundTint="@color/fb_color"/>-->
         </LinearLayout>
 
             <TextView
